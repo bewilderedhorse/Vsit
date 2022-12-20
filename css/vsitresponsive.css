@@ -1,0 +1,560 @@
+*{
+	box-sizing: border-box;
+	font-family: dubai;
+	margin: 0px;
+}
+
+
+#header
+{
+	width: 100%;
+	background: #00C7FC;
+	padding: 15px;
+	height: 70px;
+	position: fixed;
+	margin-bottom: 30px;
+}
+#header img{width: 100px; height: 45px; }
+#header ul
+{
+list-style: none; margin-top: 7px;}
+#header li
+{
+	display: inline;
+	color: white;
+}
+ #header li:hover
+ {
+ 	background-color: lightblue;
+ 	color:darkblue;
+
+ }
+
+ .banner
+ {
+ 	width: 100%;
+ 	height: 400px;
+ 	background-image: url(../images/vsitbanner1.jpg);
+ 	background-size: 100%;
+ 	text-align:center;
+ }
+.banner h2
+{color: #00C7FC;
+	font-weight: 550;
+}
+.banner p
+{
+	color: white;
+}
+
+.heading h2
+{
+text-align: center;
+font-weight: 400;
+text-decoration-line: underline; 
+margin-top: 35px;
+}
+.heading p
+{
+	text-align: center;
+	margin: auto;
+	margin-bottom: 10px;
+}
+
+ .menue ul
+{
+	list-style: none;
+	text-align: center;
+	width:65%;
+	margin: auto;
+	background-color: #00C7FC;
+	color: white;
+	margin-bottom: 40px;
+	 
+}
+.menue li
+{
+	display: inline;
+}
+.menue li:hover
+{
+background-color: white;
+color:#00C7FC; 
+}
+
+
+.coursesimg img
+{
+height: 150px;
+}
+
+.banner2
+{
+	background-color: black;
+}
+
+#vsitian img
+{
+float: left;
+}
+#highlightbg
+{background-color: #0f748f;
+	color: white;
+	float: right;
+}
+
+.banner3
+{ margin-top: 30px;
+	background-image: url(../images/vsitbanner3.jpg);
+}
+
+#banner3bg
+{
+	background-color: #0f748f;
+	margin: auto;
+	margin-top: 3%;
+	display: flex;
+	align-items: center;
+	flex-wrap: wrap; 
+}
+#banner3bg div
+{
+	text-align: center;
+	color: white;
+}
+
+
+#banner3bg h2
+{ font-weight: 400;}
+
+
+.testamonials
+{
+	height: 350px;
+	padding-top: 2%;
+	margin-top: 30px;
+}
+
+.testamonials h2{
+	text-align: center;
+	font-weight: 400;
+	font-size: 27px;
+	color: darkgrey;
+	margin-bottom: 20px;
+}
+
+#DP
+{height: 120px;
+	width: 20%;
+float: left;
+margin-left: 10%;
+}
+
+#DP img  
+{
+	height: auto;
+	width:100%;
+}
+
+#review
+{
+	width: 60%;
+	float: right;
+height: 120px;
+margin-right: 5%;
+/*padding: 2%;*/
+}
+#review p
+{font-size: 15px;
+line-height: 15px;}
+#review h5
+{font-size: 15px;
+text-align: right;
+font-weight: 500;}
+
+
+.fbpage
+{height: 400px;
+text-align: center;
+padding-top: 2.2%;
+margin-top: 30px;
+}
+.fbpage h2{
+	text-align: center;
+	font-weight: 400;
+	font-size: 27px;
+	color: darkgrey;
+	margin-bottom: 20px;
+}
+
+.banner4 {height: 200px; background-color: black;
+text-align: center; margin-top: 50px;}
+.banner4 h1
+{margin-top: 5%;
+	font-size: 35px;
+	color: blue;
+}
+.banner4 h5
+{
+	font-size: 20px;
+	color: white;
+}
+
+.forms
+{
+	height: 350px;
+	margin-top: 40px; 
+	padding: 20px;
+}
+
+.forms input
+{
+	width: 100%;
+	/*line-height: 20px;*/
+	margin-bottom: 15px;
+}
+.forms textarea
+{
+	width: 100%;
+	height: 70px;
+}
+#submit
+{
+	background-color: lightblue;
+	border: none;
+	width: 90px;
+	margin-left: 70%;
+	margin-top: 30px;
+}
+
+#submit:hover
+{
+	background-color: darkblue;
+	color:white;
+}
+.address
+{
+	height: 350px; 
+	margin-top: 40px;
+	padding: 20px;
+}
+
+[class*="footer-"]
+{height: 350px;
+	background-color: black; color: white;
+padding: 30px 0 0 30px;}
+
+.footer-1 p
+{font-size: 23px;
+margin-bottom: 15px; }
+.footer-1 li
+{font-size: 13px; color: #337ab7; width: 100px;
+border-bottom:  1px solid white; border-bottom-style: dashed;}
+
+.footer-2 p
+{font-size: 23px; color: #337ab7; margin-bottom: 15px;}
+.footer-2 li
+{font-size: 13px; color: #337ab7; width: 125px;
+border-bottom:  1px solid white; border-bottom-style: dashed;  }
+
+
+.footer-3
+{text-align: center; }
+.footer-3 img
+{height: auto; text-align: center; }
+.footer-3 h3
+{text-decoration: underline;}
+
+
+
+/*---------------------------MEDIA--------------------------------*/
+
+/*===========================MOBILE SCREEN============*/
+
+ @media screen and (max-width:600px){
+ 	#header img
+ 	{margin-left: 40%;}
+
+ 	#header ul
+ 	{background:#00C7FC;  margin-top: 0px;}
+
+ 	#header li
+ 	{width:60%; color: white; font-size: 9px; 
+ 	 padding:2px 5px 2px 5px;}
+
+.banner
+{height: 230px;}
+.banner h2
+{font-size: 20px; margin-top: 120px;}
+.banner p
+{font-size: 15px;}
+
+.heading h2
+{ font-size: 15px;}
+.heading p
+{font-size: 8px; width: 98%; margin-top: 6px;}
+
+.menue ul
+{width: 90%; text-align: left;}
+.menue li
+{padding: 2px 5px 2px 2px; font-size: 8px; text-align:center;}
+
+.coursesimg img
+{
+width: 100%;
+height: auto;}
+
+.banner2
+{height: 500px;}
+#vsitian img
+{margin-left: 30%;height: 250px;}
+#highlightbg
+{width: 90%;height: 40%;margin:1% 0 0 5% ;
+padding: 1% 0 0 5%;float: left;}
+#highlightbg h2
+{font-size: 25px;}
+#highlightbg li
+{font-size: 15px}
+
+.banner3
+{height: 350px;}
+#banner3bg
+{height: 90%;
+width: 80%;}
+#banner3bg div
+{width: 100%;}
+#banner3bg h1
+{font-size: 25px;}
+#banner3bg h2
+{font-size: 15px; font-weight: 400;}
+#banner3bg h5
+{font-size: 8px;}
+
+
+.testamonials
+{height: 250px; padding-top: 2%; margin-top: 20px;}
+.testamonials h2
+{font-size: 20px; margin-bottom: 10px;}
+#DP img  
+{
+	height: auto;
+	width:80%;
+}
+
+#review
+{width: 60%; height: 120px; margin-right: 5%;}
+#review p
+{font-size: 10px;
+line-height: 10px;}
+#review h5
+{font-size: 10px;}
+
+
+.fbpage
+{height: 220px; 
+padding-top: 2.2%; margin-top: 30px; }
+.fbpage h2
+{font-size: 20px; margin-bottom: 10px;}
+.fbpage iframe
+{height: 150px;}
+
+
+.banner4 {height: 180px; margin-top: 20px;}
+.banner4 h1
+{ font-size: 23px; width: 90%; margin: auto;
+ margin-top: 15px; margin-bottom: 10px;}
+.banner4 h5
+{font-size: 10px;}
+
+.forms
+{margin-top: 5px;}
+#submit
+{margin-left: 41%;}
+
+.address
+{height: 70px; margin-top: 0px; padding: 3px;
+text-align: center; font-size: 11px; line-height: 13px;}
+
+.footer-1{height: 300px; padding: 2%;border-bottom: 1px solid white;}
+.footer-1 p
+{font-size: 18px;
+margin-bottom: 0px; margin-left: 35%; }
+.footer-1 li
+{font-size: 14px;
+margin-left: 35% }
+
+.footer-2{height: 300px; padding: 2%; border-bottom: 1px solid white;}
+.footer-2 p
+{font-size: 18px; margin-bottom: 0px; margin-left: 35%}
+.footer-2 li
+{font-size: 14px; margin-left: 35%;
+   }
+
+.footer-3
+{ height:40px; padding: 2%; }
+.footer-3 img
+{width: 50px; margin-left: 15px;  float: left;}
+.footer-3 h3
+{ font-size: 12px; margin-left: 17px; float: left; text-decoration: none;}
+#sm img{width: 15px; margin-left: 15px; float: left;}
+.footer-3 h5
+{float: right; width: 30%;  font-size: 10px;}
+
+} 
+
+/*===========================TABLES============================*/
+ @media screen and (min-width:600px)
+ {
+ 	#header li
+ 	{padding:30px 3px 22px 3px;font-size: 12px; }
+
+ 	#header ul
+ 	{margin-left: 20px;}	
+
+.banner
+{height: 250px;}
+.banner h2
+{font-size: 30px; margin-top: 80px;}
+.banner p
+{font-size: 20px;}
+
+.heading h2
+{ font-size: 18px;}
+.heading p
+{font-size: 10px; width: 95%;}
+
+.menue li
+ 	{padding:3px 2px 3px 2px; font-size: 11px; }
+
+.coursesimg img
+{margin-left: 60px;}
+
+
+.banner2
+{height: 400px;}
+#vsitian img
+{height: 280px; margin-top: 120px;}
+
+#highlightbg
+{width: 49%;height: 70%; margin:8% 0 0 12% ;
+	padding: 4% 0 0 5%;}
+
+.banner3
+{height: 250px;}
+#banner3bg
+{height: 80%;
+width: 94%;}
+#banner3bg div
+{width: 25%;}
+#banner3bg h1
+{font-size: 23px;}
+#banner3bg h2
+{font-size: 20px; font-weight: 400;}
+#banner3bg h5
+{font-size: 15px;}
+
+.footer-3
+{ height:100px; }
+.footer-3 img
+{width: 100px; margin-left: 30px;  float: left;}
+.footer-3 h3
+{ font-size: 22px; margin-left: 35px; float: left; text-decoration: none;}
+#sm img{width: 30px; margin-left: 30px; float: left;}
+.footer-3 h5{text-align: left; padding-left: 5%;}
+
+
+}
+
+/*===========================DESK TOP=============*/
+ @media screen and (min-width:768px)
+ {
+ 	#header li
+ 	{padding:30px 10px 22px 10px; font-size: 14px; }
+
+ 	.banner
+{height: 400px;}
+.banner h2
+{font-size: 45px; margin-top: 100px;}
+.banner p
+{font-size: 30px; width: 90%;}
+
+.heading h2
+{ font-size: 25px;}
+.heading p
+{font-size: 14px;}
+
+.menue li
+ 	{padding:3px 10px 3px 10px; font-size: 13px; }
+
+.coursesimg img
+{margin-left: 40px;}
+
+
+.banner2
+{height: 400px;}
+#vsitian img
+{height: 320px; margin-top: 80px; }
+#highlightbg
+{width: 48%; height: 70%; margin:6% 0 0 12% ; padding: 4% 0 0 5%;}
+
+.banner3
+{height: 250px;}
+#banner3bg
+{height: 80%;
+width: 94%;}
+#banner3bg div
+{width: 25%;}
+#banner3bg h1
+{font-size: 30px;}
+#banner3bg h2
+{font-size: 25px; font-weight: 400;}
+#banner3bg h5
+{font-size: 15px;}
+
+
+.footer-3
+{ padding-right: 80px; height: 350px; }
+.footer-3 img
+{width: 40%; margin-top: 15px;}
+.footer-3 h3
+{margin: 10px 0;}
+.footer-3 h5{ width: 100%; }
+
+#sm img{width: 15%; margin: 20px 10px;}
+
+ }
+
+[class*="col-"]
+{float: left;
+	width: 100%;}
+
+@media only screen and (min-width: 600px){
+.col-t1 {width: 8.33%;}
+.col-t2 {width: 16.66%;}
+.col-t3 {width: 25%;}
+.col-t4 {width: 33.33%;}
+.col-t5 {width: 41.66%;}
+.col-t6 {width: 50%;}
+.col-t7 {width: 58.33%;}
+.col-t8 {width: 66.66%;}
+.col-t9 {width: 75%;}
+.col-t10 {width: 83.33%;}
+.col-t11 {width: 91.66%;
+.col-t12 {width: 100%;}
+}
+
+
+@media only screen and (min-width: 768px)
+{.col-d1 {width: 8.33%;}
+.col-d2 {width: 16.66%;}
+.col-d3 {width: 25%;}
+.col-d4 {width: 33.33%;}
+.col-d5 {width: 41.66%;}
+.col-d6 {width: 50%;}
+.col-d7 {width: 58.33%;}
+.col-d8 {width: 66.66%;}
+.col-d9 {width: 75%;}
+.col-d10 {width: 83.33%;}
+.col-d11 {width: 91.66%;}
+.col-d12 {width: 100%;}
+}
